@@ -1,0 +1,11 @@
+{
+  "domain": "amap_weather",
+  "name": "高德天气",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/yourusername/amap_weather",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "iot_class": "cloud_polling"
+}

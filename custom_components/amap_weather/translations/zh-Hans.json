@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "配置高德天气",
+        "data": {
+          "api_key": "API Key",
+          "adcode": "城市 adcode（如北京朝阳区：110105）",
+          "name": "实体名称"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "API Key 或 adcode 无效，请检查",
+      "cannot_connect": "无法连接到高德服务器"
+    }
+  }
+}
