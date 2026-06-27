@@ -4,15 +4,21 @@
       "user": {
         "title": "配置高德天气",
         "data": {
-          "api_key": "API Key",
-          "adcode": "城市 adcode",
-          "name": "名称"
+          "api_key": "高德 API Key",
+          "location_mode": "定位方式"
+        }
+      },
+      "search": {
+        "title": "搜索城市",
+        "data": {
+          "city_name": "城市名称",
+          "adcode": "选择城市"
         }
       }
     },
     "error": {
-      "invalid_auth": "API Key 或 adcode 无效",
-      "cannot_connect": "无法连接到高德服务器"
+      "cannot_connect": "无法连接到高德服务器，请检查 API Key",
+      "no_results": "未找到该城市，请换个关键词"
     }
   }
 }
